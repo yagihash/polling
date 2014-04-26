@@ -7,6 +7,8 @@
   }
   $filepath = "text";
   $timestamp = time();
+  // TODO: base64じゃなくて、Unicodeエスケープに変更
+  // 標準の関数がなさげだったので仕方なくbase64に
   if (check("name") and check("message")) {
     $name = base64_encode($_POST["name"]);
     $message = base64_encode($_POST["message"]);

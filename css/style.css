@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+div#wrap {
+  padding: 30px;
+}
+
+input#name {
+  width: 100px;
+}
+
+input#message {
+  width: 800px;
+}
+
+div.message {
+  
+  margin-bottom: 20px;
+}
+
+span.date, span.name, span.message {
+  display: block;
+}

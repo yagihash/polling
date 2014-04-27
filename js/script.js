@@ -11,6 +11,7 @@ $(function() {
       console.log(data);
     }).done(function() {
       form.message.value = "";
+      poll();
     }).fail(function() {
       alert("failed");
     });
